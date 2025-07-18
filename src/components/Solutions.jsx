@@ -49,11 +49,11 @@ const services = [
     link: "/software-solutions",
   },
   {
-    title: "Lightning Solutions",
+    title: "Lighting Solutions",
     description:
       "Advanced lighting systems designed for energy efficiency, aesthetic appeal, and smart control across residential and commercial spaces.",
     image: lighting,
-    link: "/lightning-solutions",
+    link: "/lighting-solutions",
   },
   {
     title: "House & Office Automation",

@@ -36,7 +36,7 @@ function App() {
         />
         <Route path="/software-solutions" element={<SoftwareSolutions />} />
         <Route path="/electrical-solutions" element={<ElectricalSolutions />} />
-        <Route path="/lightning-solutions" element={<LightingSolutions />} />
+        <Route path="/lighting-solutions" element={<LightingSolutions />} />
         <Route path="/house-office-solutions" element={<House />} />
         <Route path="/turnkey-solutions" element={<Turnkey />} />
         <Route path="/contact-us" element={<ContactUs />} />

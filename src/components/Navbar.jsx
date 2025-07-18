@@ -16,7 +16,7 @@ const Navbar = () => {
     "/trading-solutions",
     "/digital-manufacturing-solutions",
     "/software-solutions",
-    "/lightning-solutions",
+    "/lighting-solutions",
     "/house-office-solutions",
     "/turnkey-solutions",
   ].includes(location.pathname);
@@ -87,7 +87,7 @@ const Navbar = () => {
                     "Digital Manufacturing Solutions",
                   ],
                   ["/software-solutions", "Software Solutions"],
-                  ["/lightning-solutions", "Lighting Solutions"],
+                  ["/lighting-solutions", "Lighting Solutions"],
                   ["/house-office-solutions", "Home & Office Automation"],
                   ["/turnkey-solutions", "Turnkey Projects"],
                 ].map(([path, label]) => (
@@ -180,15 +180,15 @@ const Navbar = () => {
             {dropdownOpen && (
               <ul className="pl-4 space-y-1">
                 {[
-                  "/Industrial Automation",
-                  "/Electrical Solutions",
-                  "/Trading Solutions",
-                  "/Digital Manufacturing Solutions",
-                  "/Software Solutions",
-                  "/Lighting Solutions",
-                  "/Home & Office Automation",
-                  "/Turnkey Projects",
-                ].map((path, idx) => (
+                  ["/industrial-automation", "Industrial Automation"],
+                  ["/electrical-solutions", "Electrical Solutions"],
+                  ["/trading-solutions", "Trading Solutions"],
+                  ["/digital-manufacturing-solutions", "Digital Manufacturing Solutions"],
+                  ["/software-solutions", "Software Solutions"],
+                  ["/lighting-solutions", "Lighting Solutions"],
+                  ["/house-office-solutions", "Home & Office Automation"],
+                  ["/turnkey-solutions", "Turnkey Projects"],
+                ].map(([path, label], idx) => (
                   <Link
                     key={idx}
                     to={path}
@@ -198,7 +198,7 @@ const Navbar = () => {
                     }}
                   >
                     <li>
-                      {path.split("/").join(" ").replace(/-/g, " ").trim()}
+                      {label}
                     </li>
                   </Link>
                 ))}
