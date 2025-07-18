@@ -3,21 +3,7 @@ import React, { useRef } from "react";
 
 const Form = () => {
   const formRef = useRef();
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_lvhkz2r",
-  //       "template_6z42bzp",
-  //       formRef.current,
-  //       "vY6lamZKbUh-GVdJv"
-  //     )
-  //     .then(
-  //       () => alert("Message sent successfully!"),
-  //       () => alert("An error occurred. Try again.")
-  //     );
-  // };
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -127,6 +113,22 @@ const Form = () => {
             />
           </div>
 
+          <div>
+            <label
+              className="block text-gray-700 font-medium mb-1"
+              htmlFor="message"
+            >
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="user_message"
+              required
+              placeholder="Your message..."
+              className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            ></textarea>
+          </div>
+
           <button
             type="submit"
             className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mt-2"
@@ -140,3 +142,4 @@ const Form = () => {
 };
 
 export default Form;
+

@@ -60,14 +60,14 @@ const services = [
     description:
       "Smart automation for homes and offices enabling remote control, energy savings, and enhanced comfort through IoT and AI.",
     image: automation,
-    link: "/house-office-automation",
+    link: "/house-office-solutions",
   },
   {
     title: "Turnkey Projects",
     description:
       "End-to-end project execution services from design to deployment, delivering complete industrial and infrastructure solutions.",
     image: turnkey,
-    link: "/turnkey-projects",
+    link: "/turnkey-solutions",
   },
 ];
 

@@ -19,7 +19,6 @@ const offerings = [
     image: plcScada,
     points: [
       "Process Automation",
-      "Sewage & Water Treatment",
       "Machine Automation",
       "Automobile",
       "Conveyor Systems",
@@ -61,7 +60,7 @@ const offerings = [
     title: "Trade Basket (I)",
     image: tradeBasket1,
     points: [
-      "PLC, HMI, SCADA, etc.",
+      "PLC, HMI, VFD, etc.",
       "Switchgears",
       "Sensors & Field Instruments",
     ],

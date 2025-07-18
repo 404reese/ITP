@@ -101,10 +101,12 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="border-t border-gray-300 mt-6 pt-4 text-center">
         <p>
-          © Copyright 2025 India Tech Projects – All Rights Reserved | Powered
+          © Copyright 2025 India Tech Projects – All Rights Reserved | <br /> <span className="font-mono">
+            Developed
           by{" "}
-          <span className="font-bold text-blue-600">
-            India Tech Projects Solutions
+          <a href="https://mastical.com" className="font-bold text-blue-600" target="_blank" rel="noopener noreferrer">
+            Mastical
+          </a>
           </span>
         </p>
       </div>
